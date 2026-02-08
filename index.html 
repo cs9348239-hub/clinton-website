@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Clinton Companies and Holdings</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+body{margin:0;font-family:'Poppins',sans-serif;background:#f7f9f7;color:#222}
+header{background:#0f3d1e;color:white;padding:20px 60px;display:flex;justify-content:space-between;align-items:center}
+nav a{color:white;text-decoration:none;margin:0 15px;font-weight:500}
+.hero{background:url('farm1.jpg') center/cover no-repeat;height:90vh;display:flex;align-items:center;padding:60px;color:white}
+.hero-box{background:rgba(0,0,0,0.6);padding:40px;border-radius:12px;max-width:600px}
+.hero h1{font-size:48px;margin-bottom:15px}
+.btn{background:#1e7c3a;color:white;padding:12px 25px;border-radius:6px;text-decoration:none;font-weight:600}
+.section{padding:80px 60px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;text-align:center}
+.stat{background:white;padding:30px;border-radius:12px;box-shadow:0 5px 15px rgba(0,0,0,0.1)}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+.ceo-card{background:white;padding:30px;border-radius:15px;text-align:center;box-shadow:0 5px 15px rgba(0,0,0,0.1)}
+.ceo-card img{width:250px;border-radius:15px}
+footer{background:#0f3d1e;color:white;padding:40px;text-align:center}
+</style>
+</head>
+
+<body>
+
+<header>
+<h2>Clinton Companies and Holdings</h2>
+<nav>
+<a href="#">Home</a>
+<a href="#">About</a>
+<a href="#">Agriculture</a>
+<a href="#">Investments</a>
+<a href="#">Our Team</a>
+<a href="login.html">Staff Login</a>
+<a href="admin.html">CEO Dashboard</a>
+</nav>
+</header>
+
+<section class="hero">
+<div class="hero-box">
+<h1>Investing in Agriculture & Wealth Creation</h1>
+<p>Secure your future with Clinton Companies and Holdings — a trusted investment firm in agriculture and stock trading.</p>
+<a href="#" class="btn">Invest With Us</a>
+</div>
+</section>
+
+<section class="section">
+<div class="stats">
+<div class="stat"><h2>₦2 Billion</h2><p>Company Valuation</p></div>
+<div class="stat"><h2>₦300 Million</h2><p>Annual Income</p></div>
+<div class="stat"><h2>130+</h2><p>Investors</p></div>
+<div class="stat"><h2>35</h2><p>Shareholders</p></div>
+</div>
+</section>
+
+<section class="section grid">
+<div>
+<h2>About Clinton Companies and Holdings</h2>
+<p>
+Clinton Companies and Holdings is a diversified investment enterprise operating in agriculture and stock trading.
+Based in Delta State, Nigeria, we focus on wealth creation, food security, and long-term investor growth through
+strategic agricultural ventures and disciplined financial investments.
+</p>
+
+<ul>
+<li>Crop production and commercial farming</li>
+<li>Agro-investment projects</li>
+<li>Stock trading and portfolio management</li>
+<li>Financial asset acquisition</li>
+<li>Investor wealth programs</li>
+</ul>
+</div>
+
+<div>
+<img src="farm2.jpg" style="width:100%;border-radius:15px;">
+</div>
+</section>
+
+<section class="section">
+<h2 style="text-align:center">Founder & CEO</h2>
+<div class="ceo-card">
+<img src="founder.jpg" alt="Samuel Joseph Oluchukwu">
+<h3>Samuel Joseph Oluchukwu</h3>
+<p>Founder & CEO</p>
+<p>
+Visionary leader driving sustainable investment growth, wealth creation, and economic development through agriculture and finance.
+</p>
+</div>
+</section>
+
+<footer>
+<p>© 2026 Clinton Companies and Holdings | Delta State, Nigeria</p>
+<p>Trusted Investment | Agriculture | Stock Trading | Wealth Creation</p>
+</footer>
+
+</body>
+</html>

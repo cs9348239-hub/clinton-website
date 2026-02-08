@@ -1,0 +1,12 @@
+<h2>Transaction Recording</h2>
+
+<form>
+<input type="text" placeholder="Client Name"><br><br>
+<input type="number" placeholder="Amount"><br><br>
+<select>
+<option>Agriculture Investment</option>
+<option>Stock Investment</option>
+</select><br><br>
+<textarea placeholder="Transaction Description"></textarea><br><br>
+<button>Submit Transaction</button>
+</form>
